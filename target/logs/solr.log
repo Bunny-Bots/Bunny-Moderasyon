@@ -1,0 +1,631 @@
+INFO  - 2020-07-17 16:29:33.629; net.support.Support; Deneme
+INFO  - 2020-07-17 16:29:34.914; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:29:35.164; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:29:35.212; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:29:35.222; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:149}] to localhost:27017
+INFO  - 2020-07-17 16:29:35.224; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=471400}
+INFO  - 2020-07-17 16:29:35.628; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:29:35.959; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:29:48.377; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:150}] to localhost:27017
+INFO  - 2020-07-17 16:32:21.531; net.support.Support; Deneme
+INFO  - 2020-07-17 16:32:22.517; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:32:22.754; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:32:22.804; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:32:22.814; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:151}] to localhost:27017
+INFO  - 2020-07-17 16:32:22.816; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=344600}
+INFO  - 2020-07-17 16:32:22.944; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:32:23.240; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:32:28.444; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:152}] to localhost:27017
+ERROR - 2020-07-17 16:32:54.274; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+java.lang.NumberFormatException: The specified ID is not a valid snowflake (!732338761534537818). Expecting a valid long value!
+	at net.dv8tion.jda.api.utils.MiscUtil.parseSnowflake(MiscUtil.java:116)
+	at net.dv8tion.jda.api.utils.cache.MemberCacheView.getElementById(MemberCacheView.java:65)
+	at net.dv8tion.jda.api.entities.Guild.getMemberById(Guild.java:633)
+	at net.support.commands.Tempmute.execute(Tempmute.java:22)
+	at net.support.Listener.onMessageReceived(Listener.java:69)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+INFO  - 2020-07-17 16:33:47.730; net.support.Support; Deneme
+INFO  - 2020-07-17 16:33:50.184; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:33:56.254; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:33:56.970; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:33:57.024; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:33:57.341; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:33:57.419; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:153}] to localhost:27017
+INFO  - 2020-07-17 16:33:57.421; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=413300}
+INFO  - 2020-07-17 16:34:01.705; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:154}] to localhost:27017
+ERROR - 2020-07-17 16:34:01.831; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+java.lang.ClassCastException: net.dv8tion.jda.internal.entities.TextChannelImpl cannot be cast to net.dv8tion.jda.api.requests.restaction.ChannelAction
+	at net.support.commands.Tempmute.execute(Tempmute.java:30)
+	at net.support.Listener.onMessageReceived(Listener.java:69)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+INFO  - 2020-07-17 16:35:31.372; net.support.Support; Deneme
+INFO  - 2020-07-17 16:35:32.262; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:35:32.497; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:35:32.551; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:35:32.566; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:155}] to localhost:27017
+INFO  - 2020-07-17 16:35:32.568; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=799200}
+INFO  - 2020-07-17 16:35:32.661; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:35:33.004; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:35:43.373; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:156}] to localhost:27017
+ERROR - 2020-07-17 16:35:43.416; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+java.lang.IllegalStateException: Provided member already has a PermissionOverride in this channel!
+	at net.dv8tion.jda.internal.entities.AbstractChannelImpl.createPermissionOverride(AbstractChannelImpl.java:193)
+	at net.support.commands.Tempmute.execute(Tempmute.java:30)
+	at net.support.Listener.onMessageReceived(Listener.java:69)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+INFO  - 2020-07-17 16:36:39.587; net.support.Support; Deneme
+INFO  - 2020-07-17 16:36:40.508; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:36:40.768; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:36:40.823; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:36:40.835; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:157}] to localhost:27017
+INFO  - 2020-07-17 16:36:40.836; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=448300}
+INFO  - 2020-07-17 16:36:40.934; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:36:41.521; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:36:48.208; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:158}] to localhost:27017
+ERROR - 2020-07-17 16:36:48.255; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+java.lang.IllegalStateException: Provided member already has a PermissionOverride in this channel!
+	at net.dv8tion.jda.internal.entities.AbstractChannelImpl.createPermissionOverride(AbstractChannelImpl.java:193)
+	at net.support.commands.Tempmute.execute(Tempmute.java:30)
+	at net.support.Listener.onMessageReceived(Listener.java:69)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+INFO  - 2020-07-17 16:39:27.798; net.support.Support; Deneme
+INFO  - 2020-07-17 16:39:30.215; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:39:30.476; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:39:30.530; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:39:30.546; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:159}] to localhost:27017
+INFO  - 2020-07-17 16:39:30.548; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=353200}
+INFO  - 2020-07-17 16:39:31.407; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:39:32.262; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:39:37.761; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:160}] to localhost:27017
+INFO  - 2020-07-17 16:42:29.684; net.support.Support; Deneme
+INFO  - 2020-07-17 16:42:30.688; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:42:30.969; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:42:31.027; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:42:31.046; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:161}] to localhost:27017
+INFO  - 2020-07-17 16:42:31.047; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=338700}
+INFO  - 2020-07-17 16:42:31.113; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:42:31.553; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:42:39.379; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:162}] to localhost:27017
+INFO  - 2020-07-17 16:48:22.759; net.support.Support; Deneme
+INFO  - 2020-07-17 16:48:23.744; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:48:24.029; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:48:24.113; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:48:24.125; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:163}] to localhost:27017
+INFO  - 2020-07-17 16:48:24.126; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=461800}
+INFO  - 2020-07-17 16:48:24.197; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:48:24.516; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:48:32.940; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:164}] to localhost:27017
+INFO  - 2020-07-17 16:48:55.637; net.support.Support; Deneme
+INFO  - 2020-07-17 16:48:57.391; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:48:57.648; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:48:57.704; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:48:57.731; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:165}] to localhost:27017
+INFO  - 2020-07-17 16:48:57.732; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=543100}
+INFO  - 2020-07-17 16:48:57.851; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:48:58.152; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:49:01.794; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:166}] to localhost:27017
+INFO  - 2020-07-17 16:49:45.176; net.support.Support; Deneme
+INFO  - 2020-07-17 16:49:46.108; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:49:46.375; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:49:46.432; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:49:46.445; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:167}] to localhost:27017
+INFO  - 2020-07-17 16:49:46.446; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=364500}
+INFO  - 2020-07-17 16:49:46.524; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:49:46.817; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:49:53.898; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:168}] to localhost:27017
+INFO  - 2020-07-17 16:53:45.125; net.support.Support; Deneme
+INFO  - 2020-07-17 16:53:46.084; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:53:46.350; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:53:46.405; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:53:46.417; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:169}] to localhost:27017
+INFO  - 2020-07-17 16:53:46.418; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=336200}
+INFO  - 2020-07-17 16:53:46.523; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:53:46.822; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:54:18.253; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:170}] to localhost:27017
+INFO  - 2020-07-17 16:55:26.791; net.support.Support; Deneme
+INFO  - 2020-07-17 16:55:29.801; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:55:30.050; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:55:30.107; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:55:30.117; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:171}] to localhost:27017
+INFO  - 2020-07-17 16:55:30.119; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=489800}
+INFO  - 2020-07-17 16:55:30.257; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:55:30.690; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:55:39.299; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:172}] to localhost:27017
+ERROR - 2020-07-17 16:55:39.322; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+java.lang.NullPointerException
+	at net.support.commands.Tempmute.execute(Tempmute.java:31)
+	at net.support.Listener.onMessageReceived(Listener.java:69)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+INFO  - 2020-07-17 16:56:17.020; net.support.Support; Deneme
+INFO  - 2020-07-17 16:56:17.904; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:56:18.183; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:56:18.237; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:56:18.250; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:173}] to localhost:27017
+INFO  - 2020-07-17 16:56:18.251; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=350700}
+INFO  - 2020-07-17 16:56:18.333; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:56:18.659; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:56:25.927; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:174}] to localhost:27017
+INFO  - 2020-07-17 16:57:54.589; net.support.Support; Deneme
+INFO  - 2020-07-17 16:57:55.521; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 16:57:55.784; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 16:57:55.832; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 16:57:55.842; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:175}] to localhost:27017
+INFO  - 2020-07-17 16:57:55.843; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=342400}
+INFO  - 2020-07-17 16:57:55.939; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 16:57:56.318; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 16:58:02.091; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:176}] to localhost:27017
+INFO  - 2020-07-17 17:02:49.491; net.support.Support; Deneme
+INFO  - 2020-07-17 17:02:50.391; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:02:50.623; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:02:50.674; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:02:50.684; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:177}] to localhost:27017
+INFO  - 2020-07-17 17:02:50.685; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=369600}
+INFO  - 2020-07-17 17:02:50.811; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:02:51.144; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:03:00.139; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:178}] to localhost:27017
+INFO  - 2020-07-17 17:05:06.837; net.support.Support; Deneme
+INFO  - 2020-07-17 17:05:07.807; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:05:08.062; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:05:08.110; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:05:08.120; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:179}] to localhost:27017
+INFO  - 2020-07-17 17:05:08.121; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=388400}
+INFO  - 2020-07-17 17:05:08.582; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:05:08.933; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:05:32.523; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:180}] to localhost:27017
+INFO  - 2020-07-17 17:07:15.466; net.support.Support; Deneme
+INFO  - 2020-07-17 17:07:16.452; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:07:16.727; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:07:16.784; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:07:16.796; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:181}] to localhost:27017
+INFO  - 2020-07-17 17:07:16.797; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=350000}
+INFO  - 2020-07-17 17:07:16.898; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:07:17.205; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:07:19.191; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:182}] to localhost:27017
+INFO  - 2020-07-17 17:11:21.564; net.support.Support; Deneme
+INFO  - 2020-07-17 17:11:22.464; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:11:22.744; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:11:22.802; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:11:22.813; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:183}] to localhost:27017
+INFO  - 2020-07-17 17:11:22.815; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=332100}
+INFO  - 2020-07-17 17:11:22.894; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:11:23.204; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:11:26.245; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:184}] to localhost:27017
+INFO  - 2020-07-17 17:18:38.430; net.support.Support; Deneme
+INFO  - 2020-07-17 17:18:45.020; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:18:46.828; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:18:46.877; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:18:46.888; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:185}] to localhost:27017
+INFO  - 2020-07-17 17:18:46.890; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=367100}
+INFO  - 2020-07-17 17:18:47.774; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:18:48.387; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:18:53.103; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:186}] to localhost:27017
+ERROR - 2020-07-17 17:19:06.095; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+java.lang.NumberFormatException: The specified ID is not a valid snowflake (fsad). Expecting a valid long value!
+	at net.dv8tion.jda.api.utils.MiscUtil.parseSnowflake(MiscUtil.java:116)
+	at net.dv8tion.jda.api.utils.cache.SnowflakeCacheView.getElementById(SnowflakeCacheView.java:59)
+	at net.dv8tion.jda.api.entities.Guild.getTextChannelById(Guild.java:1155)
+	at net.support.commands.SetLogChannel.execute(SetLogChannel.java:24)
+	at net.support.Listener.onMessageReceived(Listener.java:69)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+INFO  - 2020-07-17 17:22:08.975; net.support.Support; Deneme
+INFO  - 2020-07-17 17:22:09.875; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:22:10.144; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:22:10.203; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:22:10.217; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:187}] to localhost:27017
+INFO  - 2020-07-17 17:22:10.219; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=525800}
+INFO  - 2020-07-17 17:22:10.283; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:22:10.579; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:22:18.096; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:188}] to localhost:27017
+INFO  - 2020-07-17 17:23:21.547; net.support.Support; Deneme
+INFO  - 2020-07-17 17:23:22.618; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:23:22.893; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:23:22.951; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:23:22.966; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:189}] to localhost:27017
+INFO  - 2020-07-17 17:23:22.968; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=581700}
+INFO  - 2020-07-17 17:23:23.086; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:23:23.415; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:23:29.254; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:190}] to localhost:27017
+INFO  - 2020-07-17 17:24:43.643; net.support.Support; Deneme
+INFO  - 2020-07-17 17:24:44.533; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:24:44.794; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:24:44.849; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:24:44.861; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:191}] to localhost:27017
+INFO  - 2020-07-17 17:24:44.862; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=313200}
+INFO  - 2020-07-17 17:24:45.047; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:24:45.386; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:24:56.413; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:192}] to localhost:27017
+INFO  - 2020-07-17 17:26:16.515; net.support.Support; Deneme
+INFO  - 2020-07-17 17:26:19.606; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:26:19.897; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:26:19.964; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:26:19.977; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:193}] to localhost:27017
+INFO  - 2020-07-17 17:26:19.978; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=475100}
+INFO  - 2020-07-17 17:26:20.163; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:26:20.594; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:26:30.898; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:194}] to localhost:27017
+INFO  - 2020-07-17 17:28:55.143; net.support.Support; Deneme
+INFO  - 2020-07-17 17:28:56.916; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:28:57.175; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:28:57.231; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:28:57.244; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:195}] to localhost:27017
+INFO  - 2020-07-17 17:28:57.245; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=367700}
+INFO  - 2020-07-17 17:28:57.606; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:28:57.946; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:29:05.431; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:196}] to localhost:27017
+ERROR - 2020-07-17 17:29:14.024; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+java.lang.NumberFormatException: The specified ID is not a valid snowflake (fklasdkf). Expecting a valid long value!
+	at net.dv8tion.jda.api.utils.MiscUtil.parseSnowflake(MiscUtil.java:116)
+	at net.dv8tion.jda.api.utils.cache.SnowflakeCacheView.getElementById(SnowflakeCacheView.java:59)
+	at net.dv8tion.jda.api.entities.Guild.getTextChannelById(Guild.java:1155)
+	at net.support.commands.SetLogChannel.execute(SetLogChannel.java:25)
+	at net.support.Listener.onMessageReceived(Listener.java:69)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+INFO  - 2020-07-17 17:33:57.432; net.support.Support; Deneme
+INFO  - 2020-07-17 17:33:59.783; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:34:00.029; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:34:00.088; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:34:00.100; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:197}] to localhost:27017
+INFO  - 2020-07-17 17:34:00.101; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=423200}
+INFO  - 2020-07-17 17:34:00.415; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:34:00.906; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:34:03.795; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:198}] to localhost:27017
+INFO  - 2020-07-17 17:40:31.417; net.support.Support; Deneme
+INFO  - 2020-07-17 17:40:33.601; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:40:33.899; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:40:33.988; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:40:34.000; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:205}] to localhost:27017
+INFO  - 2020-07-17 17:40:34.001; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=426400}
+INFO  - 2020-07-17 17:40:34.399; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:40:34.784; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:40:48.934; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:206}] to localhost:27017
+INFO  - 2020-07-17 17:59:29.330; net.support.Support; Deneme
+INFO  - 2020-07-17 17:59:30.834; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 17:59:31.098; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 17:59:31.163; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 17:59:31.176; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:207}] to localhost:27017
+INFO  - 2020-07-17 17:59:31.178; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=361600}
+INFO  - 2020-07-17 17:59:31.260; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 17:59:31.606; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 17:59:43.197; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:208}] to localhost:27017
+INFO  - 2020-07-17 18:01:18.551; net.support.Support; Deneme
+INFO  - 2020-07-17 18:01:19.485; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 18:01:19.744; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 18:01:19.801; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 18:01:19.819; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:209}] to localhost:27017
+INFO  - 2020-07-17 18:01:19.821; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=466900}
+INFO  - 2020-07-17 18:01:20.543; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 18:01:20.887; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 18:01:36.298; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:210}] to localhost:27017
+INFO  - 2020-07-17 18:10:27.379; net.support.Support; Deneme
+INFO  - 2020-07-17 18:10:28.352; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 18:10:28.630; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 18:10:28.696; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 18:10:28.708; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:215}] to localhost:27017
+INFO  - 2020-07-17 18:10:28.709; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=334800}
+INFO  - 2020-07-17 18:10:28.780; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 18:10:29.161; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 18:10:33.594; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:216}] to localhost:27017
+INFO  - 2020-07-17 18:11:21.111; net.support.Support; Deneme
+INFO  - 2020-07-17 18:11:22.076; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 18:11:22.341; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 18:11:22.397; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 18:11:22.408; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:217}] to localhost:27017
+INFO  - 2020-07-17 18:11:22.409; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=363700}
+INFO  - 2020-07-17 18:11:22.506; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 18:11:22.892; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 18:11:25.174; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:218}] to localhost:27017
+INFO  - 2020-07-17 18:16:10.925; net.support.Support; Deneme
+INFO  - 2020-07-17 18:16:11.839; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 18:16:12.076; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 18:16:12.122; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 18:16:12.142; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:219}] to localhost:27017
+INFO  - 2020-07-17 18:16:12.144; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=742800}
+INFO  - 2020-07-17 18:16:12.262; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 18:16:12.554; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 18:16:17.110; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:220}] to localhost:27017
+ERROR - 2020-07-17 18:16:23.156; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+net.dv8tion.jda.api.exceptions.HierarchyException: Can't modify a member with higher or equal highest role than yourself!
+	at net.dv8tion.jda.internal.entities.GuildImpl.checkPosition(GuildImpl.java:1273)
+	at net.dv8tion.jda.internal.entities.GuildImpl.kick(GuildImpl.java:901)
+	at net.dv8tion.jda.api.entities.Guild.kick(Guild.java:2448)
+	at net.support.commands.Kick.execute(Kick.java:30)
+	at net.support.Listener.onMessageReceived(Listener.java:69)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+ERROR - 2020-07-17 18:20:58.811; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at net.support.Listener.onMessageReceived(Listener.java:62)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+INFO  - 2020-07-17 18:26:30.713; net.support.Support; Deneme
+INFO  - 2020-07-17 18:26:31.728; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 18:26:31.987; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 18:26:32.055; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 18:26:32.076; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:223}] to localhost:27017
+INFO  - 2020-07-17 18:26:32.077; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=354400}
+INFO  - 2020-07-17 18:26:32.153; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 18:26:32.517; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 18:27:06.565; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:224}] to localhost:27017
+ERROR - 2020-07-17 18:27:06.621; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+	at java.util.ArrayList.get(ArrayList.java:433)
+	at net.support.Listener.onMessageReceived(Listener.java:64)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+INFO  - 2020-07-17 18:30:01.182; net.support.Support; Deneme
+INFO  - 2020-07-17 18:30:02.178; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 18:30:02.443; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 18:30:02.502; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 18:30:02.516; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:225}] to localhost:27017
+INFO  - 2020-07-17 18:30:02.517; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=456000}
+INFO  - 2020-07-17 18:30:02.592; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 18:30:02.905; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 18:30:10.530; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:226}] to localhost:27017
+INFO  - 2020-07-17 18:51:14.222; net.support.Support; Deneme
+INFO  - 2020-07-17 18:51:16.866; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 18:51:17.142; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 18:51:17.231; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 18:51:17.296; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:227}] to localhost:27017
+INFO  - 2020-07-17 18:51:17.297; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=444800}
+INFO  - 2020-07-17 18:51:17.300; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 18:51:17.657; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 18:51:40.042; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:228}] to localhost:27017
+INFO  - 2020-07-17 18:54:44.574; net.support.Support; Deneme
+INFO  - 2020-07-17 18:54:45.479; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 18:54:45.721; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 18:54:45.771; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 18:54:45.781; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:231}] to localhost:27017
+INFO  - 2020-07-17 18:54:45.782; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=422800}
+INFO  - 2020-07-17 18:54:45.894; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 18:54:46.197; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 18:55:58.714; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:232}] to localhost:27017
+INFO  - 2020-07-17 19:02:01.396; net.support.Support; Deneme
+INFO  - 2020-07-17 19:02:02.597; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 19:02:02.890; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 19:02:02.986; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 19:02:02.999; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:236}] to localhost:27017
+INFO  - 2020-07-17 19:02:03.000; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=412800}
+INFO  - 2020-07-17 19:02:03.038; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 19:02:03.387; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 19:02:05.543; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:237}] to localhost:27017
+ERROR - 2020-07-17 19:02:17.005; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+java.lang.NullPointerException
+	at net.support.commands.SetMessage.execute(SetMessage.java:48)
+	at net.support.Listener.onMessageReceived(Listener.java:78)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+INFO  - 2020-07-17 19:19:26.548; net.support.Support; Deneme
+INFO  - 2020-07-17 19:19:27.442; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 19:19:27.728; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 19:19:27.813; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 19:19:27.832; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:238}] to localhost:27017
+INFO  - 2020-07-17 19:19:27.833; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=322600}
+INFO  - 2020-07-17 19:19:27.886; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 19:19:28.204; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 19:19:35.570; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:239}] to localhost:27017
+ERROR - 2020-07-17 19:19:35.623; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+java.lang.NullPointerException
+	at net.support.Support.getProfile(Support.java:45)
+	at net.support.Listener.onMessageReceived(Listener.java:34)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
+INFO  - 2020-07-17 19:23:48.340; net.support.Support; Deneme
+INFO  - 2020-07-17 19:23:49.451; net.dv8tion.jda.internal.JDAImpl; Login Successful!
+INFO  - 2020-07-17 19:23:49.757; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+INFO  - 2020-07-17 19:23:49.824; com.mongodb.diagnostics.logging.SLF4JLogger; Cluster description not yet available. Waiting for 30000 ms before timing out
+INFO  - 2020-07-17 19:23:49.840; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:1, serverValue:246}] to localhost:27017
+INFO  - 2020-07-17 19:23:49.841; com.mongodb.diagnostics.logging.SLF4JLogger; Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 7]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, roundTripTimeNanos=513500}
+INFO  - 2020-07-17 19:23:50.409; net.dv8tion.jda.internal.requests.WebSocketClient; Connected to WebSocket
+INFO  - 2020-07-17 19:23:50.771; net.dv8tion.jda.internal.requests.WebSocketClient; Finished Loading!
+INFO  - 2020-07-17 19:23:55.033; com.mongodb.diagnostics.logging.SLF4JLogger; Opened connection [connectionId{localValue:2, serverValue:247}] to localhost:27017
+ERROR - 2020-07-17 19:23:55.081; net.dv8tion.jda.api.hooks.InterfacedEventManager; One of the EventListeners had an uncaught exception
+java.lang.NullPointerException
+	at net.support.commands.CloseTicket.execute(CloseTicket.java:27)
+	at net.support.Listener.onMessageReceived(Listener.java:78)
+	at net.dv8tion.jda.api.hooks.ListenerAdapter.onEvent(ListenerAdapter.java:376)
+	at net.dv8tion.jda.api.hooks.InterfacedEventManager.handle(InterfacedEventManager.java:96)
+	at net.dv8tion.jda.internal.hooks.EventManagerProxy.handle(EventManagerProxy.java:64)
+	at net.dv8tion.jda.internal.JDAImpl.handleEvent(JDAImpl.java:151)
+	at net.dv8tion.jda.internal.handle.MessageCreateHandler.handleInternally(MessageCreateHandler.java:122)
+	at net.dv8tion.jda.internal.handle.SocketHandler.handle(SocketHandler.java:36)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onDispatch(WebSocketClient.java:853)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onEvent(WebSocketClient.java:741)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.handleEvent(WebSocketClient.java:720)
+	at net.dv8tion.jda.internal.requests.WebSocketClient.onBinaryMessage(WebSocketClient.java:891)
+	at com.neovisionaries.ws.client.ListenerManager.callOnBinaryMessage(ListenerManager.java:385)
+	at com.neovisionaries.ws.client.ReadingThread.callOnBinaryMessage(ReadingThread.java:276)
+	at com.neovisionaries.ws.client.ReadingThread.handleBinaryFrame(ReadingThread.java:996)
+	at com.neovisionaries.ws.client.ReadingThread.handleFrame(ReadingThread.java:755)
+	at com.neovisionaries.ws.client.ReadingThread.main(ReadingThread.java:108)
+	at com.neovisionaries.ws.client.ReadingThread.runMain(ReadingThread.java:64)
+	at com.neovisionaries.ws.client.WebSocketThread.run(WebSocketThread.java:45)
