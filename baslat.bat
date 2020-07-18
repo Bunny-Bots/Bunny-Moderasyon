@@ -1,0 +1,1 @@
+java -jar SupportBot-0.0.1.jar
